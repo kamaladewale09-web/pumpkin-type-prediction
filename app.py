@@ -5,8 +5,8 @@ import pandas as pd
 import pickle
 from sklearn.neighbors import KNeighborsClassifier 
 
-st.header(":blue(Pumpkin]")
-st.subheader("This app will predict the class of a flower giving some features.")
+st.header(":blue Pumpkin variety prediction app.")
+st.subheader("This app will predict the class of a pumpkin seed giving some features.")
 
 #Loading the dataset
 #pump = pd.read_excel('Pumpkin_Seeds_Dataset - Copy.xlsx')
